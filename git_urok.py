@@ -25,7 +25,6 @@ print('8/3=2,66666667',plis3,'\n very good')
 
 
 
-
 def add(x, y):
    return x + y
 
