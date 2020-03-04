@@ -18,11 +18,19 @@
 # 	print(anun, comp_rand, '<', user_rand, ' duq haxteciq')
 
 
-print('mut gorcelu hamar greq cer login ev parol ')
-anun = input('inch e cer anun@? ')
-login = input('cer login ')
-pasword = input('cer gaxtnabar ')
-if login == 'arshak' and pasword == 'pas':
-	print('barev',anun, 'duq mutq gorceciq cer profil')
+# print('mut gorcelu hamar greq cer login ev parol ')
+# anun = input('inch e cer anun@? ')
+# login = input('cer login ')
+# pasword = input('cer gaxtnabar ')
+# if login == 'arshak' and pasword == 'pas':
+# 	print('barev',anun, 'duq mutq gorceciq cer profil')
+# else:
+# 	print(anun,'sxal login kam gaxtnabar')
+
+
+print('greq caynavor tarer')
+caynavor = input('caynavor tar ')
+if caynavor == 'a' or caynavor == 'e' or caynavor == 'i' or caynavor == 'o' or caynavor == 'u':
+	print('apreq',caynavor, 'caynavor tar e')
 else:
-	print(anun,'sxal login kam gaxtnabar')
+	print(caynavor, 'baxacyn e')
