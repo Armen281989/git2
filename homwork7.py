@@ -28,9 +28,12 @@
 # 	print(anun,'sxal login kam gaxtnabar')
 
 
+
+
 print('greq caynavor tarer')
 caynavor = input('caynavor tar ')
 if caynavor == 'a' or caynavor == 'e' or caynavor == 'i' or caynavor == 'o' or caynavor == 'u':
 	print('apreq',caynavor, 'caynavor tar e')
 else:
 	print(caynavor, 'baxacyn e')
+
