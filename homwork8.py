@@ -20,6 +20,7 @@ else:
 	pass
 password = input('mutqagreq gatnabar 8 ic voch pakas, mecatar ev poqratarerov ')
 if len(password) >= 8 and len(password) <= 12:
+	print('ok')
 	if password == '[a:z]' and password == '[A:Z]':
 		print('ok')
 else:
