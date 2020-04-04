@@ -12,6 +12,13 @@
 #   print(name[i], end="")
 
 
+# 11 Write a Python program that accepts a word from the user and reverse it
+
+# text1 = input('cer anun? ')
+# text = text1[::-1]
+# print(text)
+
+
 # 10 Write a Python program to print yesterday, today, tomorrow
 
 # import datetime 
