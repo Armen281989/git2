@@ -130,10 +130,47 @@
  
 
   # zuyg tveri 3 tarberak
-list1 = [8, 10, 19, 25, 5, 16, 12] 
+# list1 = [8, 10, 19, 25, 5, 16, 12] 
    
-zuyg = [num for num in list1 if num % 2 == 0] 
-qanak = len(zuyg) 
+# zuyg = [num for num in list1 if num % 2 == 0] 
+# qanak = len(zuyg) 
    
-print("zuyq tver: ", zuyg) 
-print("@ndhanur zuyq tveri qanak: ", qanak)
+# print("zuyq tver: ", zuyg) 
+# print("@ndhanur zuyq tveri qanak: ", qanak)
+
+
+
+
+print('   ')
+print('      @ntereq inch eq patvirum, nachos = 6$, pizza = 6$, cheeseburger = 10$, jur = 4$, kokakola = 5$')
+
+nachos = 6
+pizza = 6
+cheeseburger = 10
+jur = 4
+kokakola = 5
+menyu = input('inch kcankanaq? ')
+
+if menyu in 'nachos pizza cheeseburger kokakola':
+	menyu = nachos + pizza + cheeseburger + kokakola
+	x = (menyu / 100 * 7) + menyu
+	print('nachos',nachos,'$','pizza',pizza,'$','cheeseburger',cheeseburger,'$','kokakola',kokakola,'$','cer patver@ kazmec',x,'$')
+
+elif menyu in 'nachos pizza cheeseburger jur':
+	menyu = nachos + pizza + cheeseburger + jur
+	y = (menyu / 100 * 7) + menyu
+	print('nachos',nachos,'$','pizza',pizza,'$','cheeseburger',cheeseburger,'$','jur',jur,'$','cer patver@ kazmec',y,'$')
+
+elif menyu in 'nachos pizza cheeseburger popcorn':
+	menyu = nachos + pizza + cheeseburger + kokakola
+	z = (menyu / 100 * 7) + menyu
+	print('nachos',nachos,'$','pizza',pizza,'$','cheeseburger',cheeseburger,'$','kokakola',kokakola,'$','cer patver@ kazmec',z,'$')
+
+else:
+	menyu = nachos + pizza + cheeseburger + kokakola
+	x = (menyu / 100 * 7) + menyu
+	print('Ձեր պատվեր չկա մենյույում \nՁեզ առաջարկում ենք -','nachos',nachos,'$','pizza',pizza,'$','cheeseburger',cheeseburger,'$','kokakola',kokakola,'$','ընդհանուր կազմեց',x,'$')
+
+
+
+
