@@ -76,4 +76,5 @@ else:
 
 print('cer @ntrutyunner ','1-',user, '2-',user1, '3-',user2)
 print('komp @ntrutyun ','1-',a,'2-',b,'3-',c)
+print('')
 print(' cer hashiv ',convuser,'\n comp hashiv ',convcomp)
