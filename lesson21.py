@@ -44,17 +44,33 @@ a = random.choice(comp)
 b = random.choice(comp)
 c = random.choice(comp)
 
-if user == a or user == b or user == c:
+a = a.upper()
+b = b.upper()
+c = c.upper()
+
+if user == a:
 	convuser += 1
 
-if user1 == a or user == b or user == c:
+elif user != a:
+	convcomp += 1
+	convuser -= 1
+
+if user1 == b:
 	convuser += 1
 
-if user2 == a or user == b or user == c:
+elif user != b:
+	convcomp += 1
+	convuser -= 1
+
+if user2 == c:
 	convuser += 1
+
+elif user != c:
+	convcomp += 1
+	convuser -= 1
 
 else:
-	convcomp += 1
+	print('greq jisht barer')
 
 
 
