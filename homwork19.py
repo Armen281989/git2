@@ -149,7 +149,7 @@ pizza = 6
 cheeseburger = 10
 jur = 4
 kokakola = 5
-menyu = input('inch kcankanaq? ')
+menyu = input('inch kcankanaq? ').split(' ')
 
 if menyu in 'nachos pizza cheeseburger kokakola':
 	menyu = nachos + pizza + cheeseburger + kokakola

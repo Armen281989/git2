@@ -95,7 +95,7 @@
 # print(z)
 
 
-# union  hanum e krknvox
+# union  hanum e krknvox u miacnum e irar
 # x = {'apple', 'banan', 'cherry'}
 # y = {'google', 'microsoft', 'apple'}
 # z = x.union(y)
