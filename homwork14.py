@@ -40,4 +40,4 @@
    # 6
 dict1 = {'tiv1': 25, 'tiv2': 54, 'tiv3': 24, 'tiv4': 11, 'tiv5': 87}
 for key, value in sorted(dict1.items(), key=lambda item: item[1]):
-    print( values)
+    print( value)
